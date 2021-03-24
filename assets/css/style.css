@@ -9,20 +9,8 @@ body {
     color: white;
 }
 
-/* debug rules */
-
-.dbg header {
+header {
     height: 550px;
-
-}
-
-/* utility */
-
-.container {
-    margin: auto;
-    width: 80%;
-    height: 60px;
-    line-height: 60px;
 }
 
 .clearfix {
@@ -31,12 +19,30 @@ body {
     clear: both;
 }
 
+/* utility */
+
+.left {
+    margin-left: 10%;
+}
+
+.right {
+    margin-right: 10%;
+}
+
+.outline {
+    border: 1px solid white;
+}
+
 .bg_blue {
     background-color: #0C325A;
-
 }
 
 .bg_green {
+    background-color: #7cbb02;
+}
+
+.solid {
+    border: 1px solid #7cbb02;
     background-color: #7cbb02;
 }
 
@@ -50,6 +56,13 @@ body {
     background-position-y: 110%;
     background-position-x: 135%;
     position: relative;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    height: 60px;
+    line-height: 60px;
 }
 
 .logo, .left_menu, .right_menu {
@@ -76,15 +89,6 @@ text-transform: uppercase;
 .cta {
     padding: 5px 15px;
     border-radius: 5px;
-}
-
-.solid {
-    border: 1px solid #7cbb02;
-    background-color: #7cbb02;
-}
-
-.outline {
-    border: 1px solid white;
 }
 
 .left_menu {
@@ -114,11 +118,13 @@ text-transform: uppercase;
     bottom: 30%;
     left: 10%;
 }
+
 .motto {
     display: block;
     width: 60%;
     font-size: 52px;
 }
+
 .cta {
     display: inline-block;
     margin-top: 20px;
@@ -180,15 +186,6 @@ text-transform: uppercase;
     height: 140px;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
-}
-
-
-.left {
-    margin-left: 10%;
-}
-
-.right {
-    margin-right: 10%;
 }
 
 /* seconda parte sezione main */
@@ -255,7 +252,7 @@ aside {
 
 footer {
     width: 100%;
-    height: 250px;
+    height: 150px;
     margin: auto;
     line-height: 150px;
     background-color: lightgrey;
@@ -306,6 +303,7 @@ select {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 14px;
 }
 
 .help {
@@ -317,6 +315,7 @@ select {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 14px;
     border: 1px solid #7cbb02;
     background-color: #7cbb02;
 }
