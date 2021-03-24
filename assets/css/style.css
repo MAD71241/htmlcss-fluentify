@@ -267,5 +267,24 @@ footer {
     vertical-align: middle;
     width: 80%;
     color:  black;
-    font-size: 25px;
+    font-size: 30px;
+}
+
+.footer-right {
+    color: grey;
+}
+
+option[value=""][disabled] {
+    display: none;
+  }
+
+select {
+    margin-left: 1rem;
+    font-size: 16px;
+    color: grey;
+    background-color: lightgrey;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
 }
