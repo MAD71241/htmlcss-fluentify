@@ -224,6 +224,10 @@ aside {
     text-align: left;
 }
 
+.text-container a {
+    color: #6691c2;
+}
+
 .right-column a {
     display: inline-block;
     padding: 0 20px;
@@ -250,18 +254,22 @@ aside {
 /* footer */
 
 footer {
-    height: 150px;
+    width: 100%;
+    height: 250px;
+    margin: auto;
     line-height: 150px;
     background-color: lightgrey;
 }
 
 .footer-left {
+    width: 40%;
+    margin-left: 10%;
     position: relative;
 }
 
 .footer-left h2 {
     position: absolute;
-    left: 20%;
+    left: 0;
     display: inline-block;
     line-height: 150px;
     vertical-align: middle;
@@ -271,6 +279,8 @@ footer {
 }
 
 .footer-right {
+    width: 40%;
+    margin-right: 10$;
     color: grey;
 }
 
@@ -296,4 +306,17 @@ select {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.help {
+    position: fixed;
+    bottom: 0;
+    right: 20%;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #7cbb02;
+    background-color: #7cbb02;
 }
