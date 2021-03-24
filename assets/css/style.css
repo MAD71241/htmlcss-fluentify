@@ -16,11 +16,6 @@ body {
 
 }
 
-.dbg main {
-    background-color: #bb8082;
-    height: 800px;
-}
-
 .dbg footer {
     background-color: #6e7582;
     height: 200px;
@@ -40,6 +35,7 @@ body {
     content: "";
     clear: both;
 }
+
 .bg_blue {
     background-color: #0C325A;
 
@@ -131,4 +127,126 @@ text-transform: uppercase;
 .cta {
     display: inline-block;
     margin-top: 20px;
+}
+
+/* sezione main */
+
+.motivational_banner {
+    background-color: lightgrey;
+}
+
+.motivational_banner h2 {
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+}
+.motivational_banner p {
+    color: grey;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 30px
+}
+
+/* sezione unique selling points */
+
+.site_main {
+    width: 100%;
+}
+
+.unique_selling_points, .discover {
+    width: 100%;
+    margin: auto;
+}
+
+.unique_selling_points h2 {
+    display: inline-block;
+    padding: 0 20px;
+    color:  #7cbb02;
+    font-size: 20px;
+}
+.unique_selling_points p {
+    display: inline-block;
+    margin: 2rem 0;
+    padding: 0 20px;
+    color:  grey;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.column {
+    width: calc(80% / 3);
+    text-align: center;
+    float: left;
+}
+
+.column_image {
+    width: 140px;
+    height: 140px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.left {
+    margin-left: 10%;
+}
+
+.right {
+    margin-right: 10%;
+}
+
+/* seconda parte sezione main */
+
+.discover {
+    width: 80%;
+    margin: auto;
+}
+
+aside {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.left-column {
+    background-image: url("/assets/img/mountain.svg");
+    height: 500px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right-column {
+    position: relative;
+}
+
+.text-container {
+    display: inline-block;
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+    text-align: left;
+}
+
+.right-column a {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 12px;
+}
+
+.right-column h2 {
+    display: inline-block;
+    width: 80%;
+    padding: 0 20px;
+    color:  black;
+    font-size: 25px;
+}
+.right-column p {
+    display: inline-block;
+    width: 70%;
+    margin: 0.5rem 0;
+    padding: 0 20px;
+    color:  grey;
+    font-size: 14px;
 }
