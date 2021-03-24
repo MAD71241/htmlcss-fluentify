@@ -16,11 +16,6 @@ body {
 
 }
 
-.dbg footer {
-    background-color: #6e7582;
-    height: 200px;
-}
-
 /* utility */
 
 .container {
@@ -235,13 +230,14 @@ aside {
     font-size: 12px;
 }
 
-.right-column h2 {
+.right-column h2, .footer-left h2 {
     display: inline-block;
     width: 80%;
     padding: 0 20px;
     color:  black;
     font-size: 25px;
 }
+
 .right-column p {
     display: inline-block;
     width: 70%;
@@ -249,4 +245,27 @@ aside {
     padding: 0 20px;
     color:  grey;
     font-size: 14px;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+    line-height: 150px;
+    background-color: lightgrey;
+}
+
+.footer-left {
+    position: relative;
+}
+
+.footer-left h2 {
+    position: absolute;
+    left: 20%;
+    display: inline-block;
+    line-height: 150px;
+    vertical-align: middle;
+    width: 80%;
+    color:  black;
+    font-size: 25px;
 }
