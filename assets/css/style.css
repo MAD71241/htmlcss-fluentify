@@ -91,6 +91,8 @@ text-transform: uppercase;
 .cta {
     padding: 5px 15px;
     border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 .left_menu {
@@ -125,11 +127,6 @@ text-transform: uppercase;
     display: block;
     width: 60%;
     font-size: 52px;
-}
-
-.cta {
-    display: inline-block;
-    margin-top: 20px;
 }
 
 /* sezione main */
