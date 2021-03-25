@@ -1,3 +1,5 @@
+/* regole generali */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,7 +21,7 @@ header {
     clear: both;
 }
 
-/* utility */
+/* regole utility */
 
 .left {
     margin-left: 10%;
@@ -324,6 +326,4 @@ select {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 14px;
-    border: 1px solid #7cbb02;
-    background-color: #7cbb02;
 }
