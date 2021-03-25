@@ -188,6 +188,13 @@ text-transform: uppercase;
     margin-bottom: 1rem;
 }
 
+.divider {
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    background-color: black;
+}
+
 /* seconda parte sezione main */
 
 .discover {
@@ -213,18 +220,6 @@ aside {
     position: relative;
 }
 
-.text-container {
-    display: inline-block;
-    position: absolute;
-    top: 5rem;
-    left: 2rem;
-    text-align: left;
-}
-
-.text-container a {
-    color: #6691c2;
-}
-
 .right-column a {
     display: inline-block;
     padding: 0 20px;
@@ -241,13 +236,24 @@ aside {
 
 .right-column p {
     display: inline-block;
-    width: 70%;
+    width: 80%;
     margin: 0.5rem 0;
     padding: 0 20px;
     color:  grey;
     font-size: 14px;
 }
 
+.text-container {
+    display: inline-block;
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+    text-align: left;
+}
+
+.text-container a {
+    color: #6691c2;
+}
 /* footer */
 
 footer {
@@ -305,6 +311,8 @@ select {
     text-decoration: none;
     font-size: 14px;
 }
+
+/* bottone help */
 
 .help {
     position: fixed;
